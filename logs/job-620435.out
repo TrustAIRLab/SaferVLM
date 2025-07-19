@@ -1,609 +1,0 @@
-pyxis: importing docker image: projects.cispa.saarland:5005#c01yiqu/base_env/base_env:v1
-Collecting package metadata (current_repodata.json): ...working... done
-Solving environment: ...working... done
-
-## Package Plan ##
-
-  environment location: /opt/conda/envs/llava
-
-  added / updated specs:
-    - python=3.10
-
-
-The following packages will be downloaded:
-
-    package                    |            build
-    ---------------------------|-----------------
-    _libgcc_mutex-0.1          |      conda_forge           3 KB  conda-forge
-    _openmp_mutex-4.5          |            2_gnu          23 KB  conda-forge
-    bzip2-1.0.8                |       h4bc722e_7         247 KB  conda-forge
-    ca-certificates-2025.4.26  |       hbd8a1cb_0         149 KB  conda-forge
-    ld_impl_linux-64-2.43      |       h712a8e2_4         656 KB  conda-forge
-    libexpat-2.7.0             |       h5888daf_0          73 KB  conda-forge
-    libffi-3.4.6               |       h2dba641_1          56 KB  conda-forge
-    libgcc-15.1.0              |       h767d61c_2         810 KB  conda-forge
-    libgcc-ng-15.1.0           |       h69a702a_2          34 KB  conda-forge
-    libgomp-15.1.0             |       h767d61c_2         442 KB  conda-forge
-    liblzma-5.8.1              |       hb9d3cd8_2         110 KB  conda-forge
-    libnsl-2.0.1               |       hd590300_0          33 KB  conda-forge
-    libsqlite-3.50.1           |       hee588c1_0         898 KB  conda-forge
-    libuuid-2.38.1             |       h0b41bf4_0          33 KB  conda-forge
-    libxcrypt-4.4.36           |       hd590300_1          98 KB  conda-forge
-    libzlib-1.3.1              |       hb9d3cd8_2          60 KB  conda-forge
-    ncurses-6.5                |       h2d0b736_3         871 KB  conda-forge
-    openssl-3.5.0              |       h7b32b05_1         3.0 MB  conda-forge
-    pip-25.1.1                 |     pyh8b19718_0         1.2 MB  conda-forge
-    python-3.10.18             |hd6af730_0_cpython        23.9 MB  conda-forge
-    readline-8.2               |       h8c095d6_2         276 KB  conda-forge
-    setuptools-80.9.0          |     pyhff2d567_0         731 KB  conda-forge
-    tk-8.6.13                  |noxft_hd72426e_102         3.1 MB  conda-forge
-    tzdata-2025b               |       h78e105d_0         120 KB  conda-forge
-    wheel-0.45.1               |     pyhd8ed1ab_1          61 KB  conda-forge
-    ------------------------------------------------------------
-                                           Total:        36.8 MB
-
-The following NEW packages will be INSTALLED:
-
-  _libgcc_mutex      conda-forge/linux-64::_libgcc_mutex-0.1-conda_forge
-  _openmp_mutex      conda-forge/linux-64::_openmp_mutex-4.5-2_gnu
-  bzip2              conda-forge/linux-64::bzip2-1.0.8-h4bc722e_7
-  ca-certificates    conda-forge/noarch::ca-certificates-2025.4.26-hbd8a1cb_0
-  ld_impl_linux-64   conda-forge/linux-64::ld_impl_linux-64-2.43-h712a8e2_4
-  libexpat           conda-forge/linux-64::libexpat-2.7.0-h5888daf_0
-  libffi             conda-forge/linux-64::libffi-3.4.6-h2dba641_1
-  libgcc             conda-forge/linux-64::libgcc-15.1.0-h767d61c_2
-  libgcc-ng          conda-forge/linux-64::libgcc-ng-15.1.0-h69a702a_2
-  libgomp            conda-forge/linux-64::libgomp-15.1.0-h767d61c_2
-  liblzma            conda-forge/linux-64::liblzma-5.8.1-hb9d3cd8_2
-  libnsl             conda-forge/linux-64::libnsl-2.0.1-hd590300_0
-  libsqlite          conda-forge/linux-64::libsqlite-3.50.1-hee588c1_0
-  libuuid            conda-forge/linux-64::libuuid-2.38.1-h0b41bf4_0
-  libxcrypt          conda-forge/linux-64::libxcrypt-4.4.36-hd590300_1
-  libzlib            conda-forge/linux-64::libzlib-1.3.1-hb9d3cd8_2
-  ncurses            conda-forge/linux-64::ncurses-6.5-h2d0b736_3
-  openssl            conda-forge/linux-64::openssl-3.5.0-h7b32b05_1
-  pip                conda-forge/noarch::pip-25.1.1-pyh8b19718_0
-  python             conda-forge/linux-64::python-3.10.18-hd6af730_0_cpython
-  readline           conda-forge/linux-64::readline-8.2-h8c095d6_2
-  setuptools         conda-forge/noarch::setuptools-80.9.0-pyhff2d567_0
-  tk                 conda-forge/linux-64::tk-8.6.13-noxft_hd72426e_102
-  tzdata             conda-forge/noarch::tzdata-2025b-h78e105d_0
-  wheel              conda-forge/noarch::wheel-0.45.1-pyhd8ed1ab_1
-
-
-
-Downloading and Extracting Packages
-liblzma-5.8.1        | 110 KB    |            |   0% liblzma-5.8.1        | 110 KB    | #4         |  15% liblzma-5.8.1        | 110 KB    | ########## | 100% liblzma-5.8.1        | 110 KB    | ########## | 100% 
-setuptools-80.9.0    | 731 KB    |            |   0% setuptools-80.9.0    | 731 KB    | #7         |  18% setuptools-80.9.0    | 731 KB    | ########## | 100% setuptools-80.9.0    | 731 KB    | ########## | 100% 
-tzdata-2025b         | 120 KB    |            |   0% tzdata-2025b         | 120 KB    | #####3     |  53% tzdata-2025b         | 120 KB    | ########## | 100% tzdata-2025b         | 120 KB    | ########## | 100% 
-libexpat-2.7.0       | 73 KB     |            |   0% libexpat-2.7.0       | 73 KB     | ########## | 100% libexpat-2.7.0       | 73 KB     | ########## | 100% 
-readline-8.2         | 276 KB    |            |   0% readline-8.2         | 276 KB    | 5          |   6% readline-8.2         | 276 KB    | ########## | 100% readline-8.2         | 276 KB    | ########## | 100% 
-libxcrypt-4.4.36     | 98 KB     |            |   0% libxcrypt-4.4.36     | 98 KB     | #6         |  16% libxcrypt-4.4.36     | 98 KB     | ########1  |  82% libxcrypt-4.4.36     | 98 KB     | ########## | 100% 
-wheel-0.45.1         | 61 KB     |            |   0% wheel-0.45.1         | 61 KB     | ########## | 100% wheel-0.45.1         | 61 KB     | ########## | 100% 
-ncurses-6.5          | 871 KB    |            |   0% ncurses-6.5          | 871 KB    | 7          |   7% ncurses-6.5          | 871 KB    | ###6       |  37% ncurses-6.5          | 871 KB    | #######7   |  77% ncurses-6.5          | 871 KB    | ########## | 100% 
-libzlib-1.3.1        | 60 KB     |            |   0% libzlib-1.3.1        | 60 KB     | ##6        |  27% libzlib-1.3.1        | 60 KB     | ########## | 100% libzlib-1.3.1        | 60 KB     | ########## | 100% 
-tk-8.6.13            | 3.1 MB    |            |   0% tk-8.6.13            | 3.1 MB    |            |   0% tk-8.6.13            | 3.1 MB    | 5          |   5% tk-8.6.13            | 3.1 MB    | #1         |  11% tk-8.6.13            | 3.1 MB    | ##1        |  21% tk-8.6.13            | 3.1 MB    | ##7        |  27% tk-8.6.13            | 3.1 MB    | ###4       |  34% tk-8.6.13            | 3.1 MB    | ###9       |  40% tk-8.6.13            | 3.1 MB    | ####5      |  45% tk-8.6.13            | 3.1 MB    | #####1     |  51% tk-8.6.13            | 3.1 MB    | #####8     |  58% tk-8.6.13            | 3.1 MB    | ######5    |  66% tk-8.6.13            | 3.1 MB    | #######1   |  72% tk-8.6.13            | 3.1 MB    | #######8   |  78% tk-8.6.13            | 3.1 MB    | ########4  |  84% tk-8.6.13            | 3.1 MB    | #########1 |  92% tk-8.6.13            | 3.1 MB    | #########7 |  97% tk-8.6.13            | 3.1 MB    | ########## | 100% 
-python-3.10.18       | 23.9 MB   |            |   0% python-3.10.18       | 23.9 MB   |            |   0% python-3.10.18       | 23.9 MB   |            |   1% python-3.10.18       | 23.9 MB   | 1          |   2% python-3.10.18       | 23.9 MB   | 2          |   2% python-3.10.18       | 23.9 MB   | 3          |   3% python-3.10.18       | 23.9 MB   | 4          |   4% python-3.10.18       | 23.9 MB   | 4          |   5% python-3.10.18       | 23.9 MB   | 5          |   6% python-3.10.18       | 23.9 MB   | 6          |   6% python-3.10.18       | 23.9 MB   | 6          |   7% python-3.10.18       | 23.9 MB   | 7          |   8% python-3.10.18       | 23.9 MB   | 8          |   8% python-3.10.18       | 23.9 MB   | 8          |   9% python-3.10.18       | 23.9 MB   | 9          |   9% python-3.10.18       | 23.9 MB   | #          |  10% python-3.10.18       | 23.9 MB   | #          |  11% python-3.10.18       | 23.9 MB   | #1         |  12% python-3.10.18       | 23.9 MB   | #2         |  12% python-3.10.18       | 23.9 MB   | #2         |  13% python-3.10.18       | 23.9 MB   | #3         |  13% python-3.10.18       | 23.9 MB   | #4         |  14% python-3.10.18       | 23.9 MB   | #4         |  15% python-3.10.18       | 23.9 MB   | #5         |  15% python-3.10.18       | 23.9 MB   | #5         |  16% python-3.10.18       | 23.9 MB   | #5         |  16% python-3.10.18       | 23.9 MB   | ##1        |  21% python-3.10.18       | 23.9 MB   | ##1        |  22% python-3.10.18       | 23.9 MB   | ##2        |  22% python-3.10.18       | 23.9 MB   | ##2        |  23% python-3.10.18       | 23.9 MB   | ##3        |  23% python-3.10.18       | 23.9 MB   | ##3        |  24% python-3.10.18       | 23.9 MB   | ##4        |  24% python-3.10.18       | 23.9 MB   | ##4        |  25% python-3.10.18       | 23.9 MB   | ##5        |  25% python-3.10.18       | 23.9 MB   | ##5        |  26% python-3.10.18       | 23.9 MB   | ##6        |  26% python-3.10.18       | 23.9 MB   | ##6        |  27% python-3.10.18       | 23.9 MB   | ##7        |  28% python-3.10.18       | 23.9 MB   | ##8        |  28% python-3.10.18       | 23.9 MB   | ##8        |  28% python-3.10.18       | 23.9 MB   | ##8        |  28% python-3.10.18       | 23.9 MB   | ####4      |  45% python-3.10.18       | 23.9 MB   | ####8      |  48% python-3.10.18       | 23.9 MB   | #####1     |  51% python-3.10.18       | 23.9 MB   | #####3     |  53% python-3.10.18       | 23.9 MB   | #####4     |  55% python-3.10.18       | 23.9 MB   | #####5     |  56% python-3.10.18       | 23.9 MB   | #####6     |  57% python-3.10.18       | 23.9 MB   | #####7     |  58% python-3.10.18       | 23.9 MB   | #####8     |  58% python-3.10.18       | 23.9 MB   | #####8     |  59% python-3.10.18       | 23.9 MB   | #####8     |  59% python-3.10.18       | 23.9 MB   | #####9     |  59% python-3.10.18       | 23.9 MB   | #####9     |  60% python-3.10.18       | 23.9 MB   | #####9     |  60% python-3.10.18       | 23.9 MB   | ######     |  60% python-3.10.18       | 23.9 MB   | ######     |  60% python-3.10.18       | 23.9 MB   | ######     |  61% python-3.10.18       | 23.9 MB   | ######1    |  61% python-3.10.18       | 23.9 MB   | ######1    |  62% python-3.10.18       | 23.9 MB   | ######2    |  62% python-3.10.18       | 23.9 MB   | ######3    |  63% python-3.10.18       | 23.9 MB   | ######3    |  64% python-3.10.18       | 23.9 MB   | ######4    |  65% python-3.10.18       | 23.9 MB   | ######5    |  65% python-3.10.18       | 23.9 MB   | ######5    |  66% python-3.10.18       | 23.9 MB   | ######6    |  66% python-3.10.18       | 23.9 MB   | ######7    |  67% python-3.10.18       | 23.9 MB   | ######8    |  68% python-3.10.18       | 23.9 MB   | ######9    |  69% python-3.10.18       | 23.9 MB   | #######    |  70% python-3.10.18       | 23.9 MB   | #######1   |  71% python-3.10.18       | 23.9 MB   | #######2   |  72% python-3.10.18       | 23.9 MB   | #######3   |  74% python-3.10.18       | 23.9 MB   | #######4   |  75% python-3.10.18       | 23.9 MB   | #######5   |  75% python-3.10.18       | 23.9 MB   | #######6   |  76% python-3.10.18       | 23.9 MB   | #######7   |  77% python-3.10.18       | 23.9 MB   | #######8   |  78% python-3.10.18       | 23.9 MB   | #######8   |  79% python-3.10.18       | 23.9 MB   | ########   |  80% python-3.10.18       | 23.9 MB   | ########1  |  81% python-3.10.18       | 23.9 MB   | ########1  |  82% python-3.10.18       | 23.9 MB   | ########2  |  83% python-3.10.18       | 23.9 MB   | ########3  |  84% python-3.10.18       | 23.9 MB   | ########4  |  85% python-3.10.18       | 23.9 MB   | ########5  |  85% python-3.10.18       | 23.9 MB   | ########5  |  86% python-3.10.18       | 23.9 MB   | ########6  |  87% python-3.10.18       | 23.9 MB   | ########7  |  87% python-3.10.18       | 23.9 MB   | ########7  |  88% python-3.10.18       | 23.9 MB   | ########8  |  89% python-3.10.18       | 23.9 MB   | ########9  |  90% python-3.10.18       | 23.9 MB   | #########  |  90% python-3.10.18       | 23.9 MB   | #########1 |  91% python-3.10.18       | 23.9 MB   | #########1 |  92% python-3.10.18       | 23.9 MB   | #########2 |  93% python-3.10.18       | 23.9 MB   | #########3 |  93% python-3.10.18       | 23.9 MB   | #########3 |  93% python-3.10.18       | 23.9 MB   | #########3 |  94% python-3.10.18       | 23.9 MB   | #########4 |  94% python-3.10.18       | 23.9 MB   | #########4 |  95% python-3.10.18       | 23.9 MB   | #########4 |  95% python-3.10.18       | 23.9 MB   | #########5 |  95% python-3.10.18       | 23.9 MB   | #########5 |  96% python-3.10.18       | 23.9 MB   | #########5 |  96% python-3.10.18       | 23.9 MB   | #########6 |  96% python-3.10.18       | 23.9 MB   | #########6 |  96% python-3.10.18       | 23.9 MB   | #########6 |  97% python-3.10.18       | 23.9 MB   | #########6 |  97% python-3.10.18       | 23.9 MB   | #########7 |  97% python-3.10.18       | 23.9 MB   | #########7 |  98% python-3.10.18       | 23.9 MB   | #########8 |  98% python-3.10.18       | 23.9 MB   | #########9 |  99% python-3.10.18       | 23.9 MB   | #########9 | 100% python-3.10.18       | 23.9 MB   | ########## | 100% 
-libnsl-2.0.1         | 33 KB     |            |   0% libnsl-2.0.1         | 33 KB     | ####9      |  49% libnsl-2.0.1         | 33 KB     | ########## | 100% 
-libgomp-15.1.0       | 442 KB    |            |   0% libgomp-15.1.0       | 442 KB    | ##1        |  22% libgomp-15.1.0       | 442 KB    | ####3      |  43% libgomp-15.1.0       | 442 KB    | ########## | 100% libgomp-15.1.0       | 442 KB    | ########## | 100% 
-ld_impl_linux-64-2.4 | 656 KB    |            |   0% ld_impl_linux-64-2.4 | 656 KB    | #4         |  15% ld_impl_linux-64-2.4 | 656 KB    | ####8      |  49% ld_impl_linux-64-2.4 | 656 KB    | ########## | 100% ld_impl_linux-64-2.4 | 656 KB    | ########## | 100% 
-libgcc-15.1.0        | 810 KB    |            |   0% libgcc-15.1.0        | 810 KB    | #3         |  14% libgcc-15.1.0        | 810 KB    | ####7      |  47% libgcc-15.1.0        | 810 KB    | #######3   |  73% libgcc-15.1.0        | 810 KB    | ########## | 100% 
-_openmp_mutex-4.5    | 23 KB     |            |   0% _openmp_mutex-4.5    | 23 KB     | ########## | 100% 
-openssl-3.5.0        | 3.0 MB    |            |   0% openssl-3.5.0        | 3.0 MB    | 5          |   6% openssl-3.5.0        | 3.0 MB    | #3         |  13% openssl-3.5.0        | 3.0 MB    | ##2        |  23% openssl-3.5.0        | 3.0 MB    | ###3       |  34% openssl-3.5.0        | 3.0 MB    | ####2      |  42% openssl-3.5.0        | 3.0 MB    | #####3     |  54% openssl-3.5.0        | 3.0 MB    | ######2    |  63% openssl-3.5.0        | 3.0 MB    | ######9    |  70% openssl-3.5.0        | 3.0 MB    | #######6   |  77% openssl-3.5.0        | 3.0 MB    | ########3  |  83% openssl-3.5.0        | 3.0 MB    | ########8  |  88% openssl-3.5.0        | 3.0 MB    | #########4 |  95% openssl-3.5.0        | 3.0 MB    | ########## | 100% openssl-3.5.0        | 3.0 MB    | ########## | 100% 
-libuuid-2.38.1       | 33 KB     |            |   0% libuuid-2.38.1       | 33 KB     | ########## | 100% libuuid-2.38.1       | 33 KB     | ########## | 100% 
-ca-certificates-2025 | 149 KB    |            |   0% ca-certificates-2025 | 149 KB    | ###2       |  32% ca-certificates-2025 | 149 KB    | ########## | 100% 
-libffi-3.4.6         | 56 KB     |            |   0% libffi-3.4.6         | 56 KB     | ########## | 100% libffi-3.4.6         | 56 KB     | ########## | 100% 
-libsqlite-3.50.1     | 898 KB    |            |   0% libsqlite-3.50.1     | 898 KB    | 7          |   7% libsqlite-3.50.1     | 898 KB    | ###        |  30% libsqlite-3.50.1     | 898 KB    | ######7    |  68% libsqlite-3.50.1     | 898 KB    | #########7 |  98% libsqlite-3.50.1     | 898 KB    | ########## | 100% 
-pip-25.1.1           | 1.2 MB    |            |   0% pip-25.1.1           | 1.2 MB    | 5          |   5% pip-25.1.1           | 1.2 MB    | ##8        |  29% pip-25.1.1           | 1.2 MB    | ####4      |  45% pip-25.1.1           | 1.2 MB    | #####7     |  58% pip-25.1.1           | 1.2 MB    | ######8    |  69% pip-25.1.1           | 1.2 MB    | #######9   |  79% pip-25.1.1           | 1.2 MB    | ########9  |  90% pip-25.1.1           | 1.2 MB    | ########## | 100% pip-25.1.1           | 1.2 MB    | ########## | 100% 
-libgcc-ng-15.1.0     | 34 KB     |            |   0% libgcc-ng-15.1.0     | 34 KB     | ########## | 100% libgcc-ng-15.1.0     | 34 KB     | ########## | 100% 
-_libgcc_mutex-0.1    | 3 KB      |            |   0% _libgcc_mutex-0.1    | 3 KB      | ########## | 100% 
-bzip2-1.0.8          | 247 KB    |            |   0% bzip2-1.0.8          | 247 KB    | #9         |  19% bzip2-1.0.8          | 247 KB    | #####8     |  58% bzip2-1.0.8          | 247 KB    | ########## | 100% bzip2-1.0.8          | 247 KB    | ########## | 100% 
-Preparing transaction: ...working... done
-Verifying transaction: ...working... done
-Executing transaction: ...working... done
-
-
-==> WARNING: A newer version of conda exists. <==
-  current version: 4.12.0
-  latest version: 25.5.1
-
-Please update conda by running
-
-    $ conda update -n base conda
-
-
-#
-# To activate this environment, use
-#
-#     $ conda activate llava
-#
-# To deactivate an active environment, use
-#
-#     $ conda deactivate
-
-Looking in indexes: https://pypi.org/simple, https://pypi.ngc.nvidia.com
-Requirement already satisfied: pip in /opt/conda/envs/llava/lib/python3.10/site-packages (25.1.1)
-Requirement already satisfied: setuptools in /opt/conda/envs/llava/lib/python3.10/site-packages (80.9.0)
-Looking in indexes: https://pypi.org/simple, https://pypi.ngc.nvidia.com
-Obtaining file:///home/c01yiqu/CISPA-projects/safe_bench-2023/SaferVLM
-  Installing build dependencies: started
-  Installing build dependencies: finished with status 'done'
-  Checking if build backend supports build_editable: started
-  Checking if build backend supports build_editable: finished with status 'done'
-  Getting requirements to build editable: started
-  Getting requirements to build editable: finished with status 'done'
-  Preparing editable metadata (pyproject.toml): started
-  Preparing editable metadata (pyproject.toml): finished with status 'done'
-Collecting torch (from llava==1.0.0)
-  Downloading torch-2.7.1-cp310-cp310-manylinux_2_28_x86_64.whl.metadata (29 kB)
-Collecting torchvision (from llava==1.0.0)
-  Downloading torchvision-0.22.1-cp310-cp310-manylinux_2_28_x86_64.whl.metadata (6.1 kB)
-Collecting fastapi (from llava==1.0.0)
-  Downloading fastapi-0.115.12-py3-none-any.whl.metadata (27 kB)
-Collecting gradio==3.35.2 (from llava==1.0.0)
-  Downloading gradio-3.35.2-py3-none-any.whl.metadata (15 kB)
-Collecting markdown2[all] (from llava==1.0.0)
-  Downloading markdown2-2.5.3-py3-none-any.whl.metadata (2.1 kB)
-Collecting numpy==1.26.4 (from llava==1.0.0)
-  Downloading numpy-1.26.4-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (61 kB)
-Collecting requests (from llava==1.0.0)
-  Downloading requests-2.32.4-py3-none-any.whl.metadata (4.9 kB)
-Collecting sentencepiece==0.1.99 (from llava==1.0.0)
-  Downloading sentencepiece-0.1.99-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (7.7 kB)
-Collecting shortuuid (from llava==1.0.0)
-  Downloading shortuuid-1.0.13-py3-none-any.whl.metadata (5.8 kB)
-Collecting tokenizers>=0.12.1 (from llava==1.0.0)
-  Downloading tokenizers-0.21.1-cp39-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (6.8 kB)
-Collecting uvicorn (from llava==1.0.0)
-  Downloading uvicorn-0.34.3-py3-none-any.whl.metadata (6.5 kB)
-Collecting wandb (from llava==1.0.0)
-  Downloading wandb-0.20.1-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (10 kB)
-Collecting httpx==0.24.0 (from llava==1.0.0)
-  Downloading httpx-0.24.0-py3-none-any.whl.metadata (8.1 kB)
-Collecting deepspeed==0.9.3 (from llava==1.0.0)
-  Downloading deepspeed-0.9.3.tar.gz (807 kB)
-     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 807.5/807.5 kB 138.1 kB/s eta 0:00:00
-  Preparing metadata (setup.py): started
-  Preparing metadata (setup.py): finished with status 'done'
-Collecting peft==0.4.0 (from llava==1.0.0)
-  Downloading peft-0.4.0-py3-none-any.whl.metadata (21 kB)
-Collecting transformers==4.31.0 (from llava==1.0.0)
-  Downloading transformers-4.31.0-py3-none-any.whl.metadata (116 kB)
-Collecting accelerate==0.26.0 (from llava==1.0.0)
-  Downloading accelerate-0.26.0-py3-none-any.whl.metadata (18 kB)
-Collecting bitsandbytes==0.41.0 (from llava==1.0.0)
-  Downloading bitsandbytes-0.41.0-py3-none-any.whl.metadata (9.8 kB)
-Collecting scikit-learn==1.2.2 (from llava==1.0.0)
-  Downloading scikit_learn-1.2.2-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (11 kB)
-Collecting einops==0.6.1 (from llava==1.0.0)
-  Downloading einops-0.6.1-py3-none-any.whl.metadata (12 kB)
-Collecting einops-exts==0.0.4 (from llava==1.0.0)
-  Downloading einops_exts-0.0.4-py3-none-any.whl.metadata (621 bytes)
-Collecting timm==0.6.13 (from llava==1.0.0)
-  Downloading timm-0.6.13-py3-none-any.whl.metadata (38 kB)
-Collecting datasets (from llava==1.0.0)
-  Downloading datasets-3.6.0-py3-none-any.whl.metadata (19 kB)
-Collecting ninja (from llava==1.0.0)
-  Downloading ninja-1.11.1.4-py3-none-manylinux_2_12_x86_64.manylinux2010_x86_64.whl.metadata (5.0 kB)
-Collecting packaging>=20.0 (from accelerate==0.26.0->llava==1.0.0)
-  Downloading packaging-25.0-py3-none-any.whl.metadata (3.3 kB)
-Collecting psutil (from accelerate==0.26.0->llava==1.0.0)
-  Downloading psutil-7.0.0-cp36-abi3-manylinux_2_12_x86_64.manylinux2010_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (22 kB)
-Collecting pyyaml (from accelerate==0.26.0->llava==1.0.0)
-  Downloading PyYAML-6.0.2-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (2.1 kB)
-Collecting huggingface-hub (from accelerate==0.26.0->llava==1.0.0)
-  Downloading huggingface_hub-0.32.4-py3-none-any.whl.metadata (14 kB)
-Collecting safetensors>=0.3.1 (from accelerate==0.26.0->llava==1.0.0)
-  Downloading safetensors-0.5.3-cp38-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (3.8 kB)
-Collecting hjson (from deepspeed==0.9.3->llava==1.0.0)
-  Downloading hjson-3.1.0-py3-none-any.whl.metadata (2.6 kB)
-Collecting py-cpuinfo (from deepspeed==0.9.3->llava==1.0.0)
-  Downloading py_cpuinfo-9.0.0-py3-none-any.whl.metadata (794 bytes)
-Collecting pydantic<2.0.0 (from deepspeed==0.9.3->llava==1.0.0)
-  Downloading pydantic-1.10.22-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (154 kB)
-Collecting tqdm (from deepspeed==0.9.3->llava==1.0.0)
-  Downloading tqdm-4.67.1-py3-none-any.whl.metadata (57 kB)
-Collecting aiofiles (from gradio==3.35.2->llava==1.0.0)
-  Downloading aiofiles-24.1.0-py3-none-any.whl.metadata (10 kB)
-Collecting aiohttp (from gradio==3.35.2->llava==1.0.0)
-  Downloading aiohttp-3.12.12-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (7.6 kB)
-Collecting altair>=4.2.0 (from gradio==3.35.2->llava==1.0.0)
-  Downloading altair-5.5.0-py3-none-any.whl.metadata (11 kB)
-Collecting ffmpy (from gradio==3.35.2->llava==1.0.0)
-  Downloading ffmpy-0.6.0-py3-none-any.whl.metadata (2.9 kB)
-Collecting gradio-client>=0.2.7 (from gradio==3.35.2->llava==1.0.0)
-  Downloading gradio_client-1.10.3-py3-none-any.whl.metadata (7.1 kB)
-Collecting jinja2 (from gradio==3.35.2->llava==1.0.0)
-  Downloading jinja2-3.1.6-py3-none-any.whl.metadata (2.9 kB)
-Collecting markdown-it-py>=2.0.0 (from markdown-it-py[linkify]>=2.0.0->gradio==3.35.2->llava==1.0.0)
-  Downloading markdown_it_py-3.0.0-py3-none-any.whl.metadata (6.9 kB)
-Collecting markupsafe (from gradio==3.35.2->llava==1.0.0)
-  Downloading MarkupSafe-3.0.2-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (4.0 kB)
-Collecting matplotlib (from gradio==3.35.2->llava==1.0.0)
-  Downloading matplotlib-3.10.3-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (11 kB)
-Collecting mdit-py-plugins<=0.3.3 (from gradio==3.35.2->llava==1.0.0)
-  Downloading mdit_py_plugins-0.3.3-py3-none-any.whl.metadata (2.8 kB)
-Collecting orjson (from gradio==3.35.2->llava==1.0.0)
-  Downloading orjson-3.10.18-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (41 kB)
-Collecting pandas (from gradio==3.35.2->llava==1.0.0)
-  Downloading pandas-2.3.0-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (91 kB)
-Collecting pillow (from gradio==3.35.2->llava==1.0.0)
-  Downloading pillow-11.2.1-cp310-cp310-manylinux_2_28_x86_64.whl.metadata (8.9 kB)
-Collecting pydub (from gradio==3.35.2->llava==1.0.0)
-  Downloading pydub-0.25.1-py2.py3-none-any.whl.metadata (1.4 kB)
-Collecting pygments>=2.12.0 (from gradio==3.35.2->llava==1.0.0)
-  Downloading pygments-2.19.1-py3-none-any.whl.metadata (2.5 kB)
-Collecting python-multipart (from gradio==3.35.2->llava==1.0.0)
-  Downloading python_multipart-0.0.20-py3-none-any.whl.metadata (1.8 kB)
-Collecting semantic-version (from gradio==3.35.2->llava==1.0.0)
-  Downloading semantic_version-2.10.0-py2.py3-none-any.whl.metadata (9.7 kB)
-Collecting websockets>=10.0 (from gradio==3.35.2->llava==1.0.0)
-  Downloading websockets-15.0.1-cp310-cp310-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (6.8 kB)
-Collecting certifi (from httpx==0.24.0->llava==1.0.0)
-  Downloading certifi-2025.4.26-py3-none-any.whl.metadata (2.5 kB)
-Collecting httpcore<0.18.0,>=0.15.0 (from httpx==0.24.0->llava==1.0.0)
-  Downloading httpcore-0.17.3-py3-none-any.whl.metadata (18 kB)
-Collecting idna (from httpx==0.24.0->llava==1.0.0)
-  Downloading idna-3.10-py3-none-any.whl.metadata (10 kB)
-Collecting sniffio (from httpx==0.24.0->llava==1.0.0)
-  Downloading sniffio-1.3.1-py3-none-any.whl.metadata (3.9 kB)
-Collecting scipy>=1.3.2 (from scikit-learn==1.2.2->llava==1.0.0)
-  Downloading scipy-1.15.3-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (61 kB)
-Collecting joblib>=1.1.1 (from scikit-learn==1.2.2->llava==1.0.0)
-  Downloading joblib-1.5.1-py3-none-any.whl.metadata (5.6 kB)
-Collecting threadpoolctl>=2.0.0 (from scikit-learn==1.2.2->llava==1.0.0)
-  Downloading threadpoolctl-3.6.0-py3-none-any.whl.metadata (13 kB)
-Collecting filelock (from transformers==4.31.0->llava==1.0.0)
-  Downloading filelock-3.18.0-py3-none-any.whl.metadata (2.9 kB)
-Collecting regex!=2019.12.17 (from transformers==4.31.0->llava==1.0.0)
-  Downloading regex-2024.11.6-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (40 kB)
-Collecting tokenizers>=0.12.1 (from llava==1.0.0)
-  Downloading tokenizers-0.13.3-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (6.7 kB)
-Collecting h11<0.15,>=0.13 (from httpcore<0.18.0,>=0.15.0->httpx==0.24.0->llava==1.0.0)
-  Downloading h11-0.14.0-py3-none-any.whl.metadata (8.2 kB)
-Collecting anyio<5.0,>=3.0 (from httpcore<0.18.0,>=0.15.0->httpx==0.24.0->llava==1.0.0)
-  Downloading anyio-4.9.0-py3-none-any.whl.metadata (4.7 kB)
-Collecting exceptiongroup>=1.0.2 (from anyio<5.0,>=3.0->httpcore<0.18.0,>=0.15.0->httpx==0.24.0->llava==1.0.0)
-  Downloading exceptiongroup-1.3.0-py3-none-any.whl.metadata (6.7 kB)
-Collecting typing_extensions>=4.5 (from anyio<5.0,>=3.0->httpcore<0.18.0,>=0.15.0->httpx==0.24.0->llava==1.0.0)
-  Downloading typing_extensions-4.14.0-py3-none-any.whl.metadata (3.0 kB)
-Collecting fsspec>=2023.5.0 (from huggingface-hub->accelerate==0.26.0->llava==1.0.0)
-  Downloading fsspec-2025.5.1-py3-none-any.whl.metadata (11 kB)
-Collecting hf-xet<2.0.0,>=1.1.2 (from huggingface-hub->accelerate==0.26.0->llava==1.0.0)
-  Downloading hf_xet-1.1.3-cp37-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (879 bytes)
-Collecting markdown-it-py>=2.0.0 (from markdown-it-py[linkify]>=2.0.0->gradio==3.35.2->llava==1.0.0)
-  Downloading markdown_it_py-2.2.0-py3-none-any.whl.metadata (6.8 kB)
-Collecting mdurl~=0.1 (from markdown-it-py>=2.0.0->markdown-it-py[linkify]>=2.0.0->gradio==3.35.2->llava==1.0.0)
-  Downloading mdurl-0.1.2-py3-none-any.whl.metadata (1.6 kB)
-Collecting jsonschema>=3.0 (from altair>=4.2.0->gradio==3.35.2->llava==1.0.0)
-  Downloading jsonschema-4.24.0-py3-none-any.whl.metadata (7.8 kB)
-Collecting narwhals>=1.14.2 (from altair>=4.2.0->gradio==3.35.2->llava==1.0.0)
-  Downloading narwhals-1.42.0-py3-none-any.whl.metadata (11 kB)
-INFO: pip is looking at multiple versions of gradio-client to determine which version is compatible with other requirements. This could take a while.
-Collecting gradio-client>=0.2.7 (from gradio==3.35.2->llava==1.0.0)
-  Downloading gradio_client-1.10.2-py3-none-any.whl.metadata (7.1 kB)
-  Downloading gradio_client-1.10.1-py3-none-any.whl.metadata (7.1 kB)
-  Downloading gradio_client-1.10.0-py3-none-any.whl.metadata (7.1 kB)
-  Downloading gradio_client-1.9.1-py3-none-any.whl.metadata (7.1 kB)
-  Downloading gradio_client-1.9.0-py3-none-any.whl.metadata (7.1 kB)
-  Downloading gradio_client-1.8.0-py3-none-any.whl.metadata (7.1 kB)
-  Downloading gradio_client-1.7.2-py3-none-any.whl.metadata (7.1 kB)
-INFO: pip is still looking at multiple versions of gradio-client to determine which version is compatible with other requirements. This could take a while.
-  Downloading gradio_client-1.7.1-py3-none-any.whl.metadata (7.1 kB)
-  Downloading gradio_client-1.7.0-py3-none-any.whl.metadata (7.1 kB)
-  Downloading gradio_client-1.6.0-py3-none-any.whl.metadata (7.1 kB)
-  Downloading gradio_client-1.5.4-py3-none-any.whl.metadata (7.1 kB)
-  Downloading gradio_client-1.5.3-py3-none-any.whl.metadata (7.1 kB)
-INFO: This is taking longer than usual. You might need to provide the dependency resolver with stricter constraints to reduce runtime. See https://pip.pypa.io/warnings/backtracking for guidance. If you want to abort this run, press Ctrl + C.
-  Downloading gradio_client-1.5.2-py3-none-any.whl.metadata (7.1 kB)
-  Downloading gradio_client-1.5.1-py3-none-any.whl.metadata (7.1 kB)
-  Downloading gradio_client-1.5.0-py3-none-any.whl.metadata (7.1 kB)
-  Downloading gradio_client-1.4.3-py3-none-any.whl.metadata (7.1 kB)
-  Downloading gradio_client-1.4.2-py3-none-any.whl.metadata (7.1 kB)
-  Downloading gradio_client-1.4.0-py3-none-any.whl.metadata (7.1 kB)
-  Downloading gradio_client-1.3.0-py3-none-any.whl.metadata (7.1 kB)
-  Downloading gradio_client-1.2.0-py3-none-any.whl.metadata (7.1 kB)
-  Downloading gradio_client-1.1.1-py3-none-any.whl.metadata (7.1 kB)
-  Downloading gradio_client-1.1.0-py3-none-any.whl.metadata (7.1 kB)
-  Downloading gradio_client-1.0.2-py3-none-any.whl.metadata (7.1 kB)
-  Downloading gradio_client-1.0.1-py3-none-any.whl.metadata (7.1 kB)
-  Downloading gradio_client-0.17.0-py3-none-any.whl.metadata (7.1 kB)
-  Downloading gradio_client-0.16.4-py3-none-any.whl.metadata (7.1 kB)
-  Downloading gradio_client-0.16.3-py3-none-any.whl.metadata (7.1 kB)
-  Downloading gradio_client-0.16.2-py3-none-any.whl.metadata (7.1 kB)
-  Downloading gradio_client-0.16.1-py3-none-any.whl.metadata (7.1 kB)
-  Downloading gradio_client-0.16.0-py3-none-any.whl.metadata (7.1 kB)
-  Downloading gradio_client-0.15.1-py3-none-any.whl.metadata (7.1 kB)
-  Downloading gradio_client-0.15.0-py3-none-any.whl.metadata (7.1 kB)
-  Downloading gradio_client-0.14.0-py3-none-any.whl.metadata (7.1 kB)
-  Downloading gradio_client-0.13.0-py3-none-any.whl.metadata (7.1 kB)
-  Downloading gradio_client-0.12.0-py3-none-any.whl.metadata (7.1 kB)
-  Downloading gradio_client-0.11.0-py3-none-any.whl.metadata (7.1 kB)
-  Downloading gradio_client-0.10.1-py3-none-any.whl.metadata (7.1 kB)
-  Downloading gradio_client-0.10.0-py3-none-any.whl.metadata (7.1 kB)
-Collecting websockets>=10.0 (from gradio==3.35.2->llava==1.0.0)
-  Downloading websockets-11.0.3-cp310-cp310-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (6.6 kB)
-Collecting attrs>=22.2.0 (from jsonschema>=3.0->altair>=4.2.0->gradio==3.35.2->llava==1.0.0)
-  Downloading attrs-25.3.0-py3-none-any.whl.metadata (10 kB)
-Collecting jsonschema-specifications>=2023.03.6 (from jsonschema>=3.0->altair>=4.2.0->gradio==3.35.2->llava==1.0.0)
-  Downloading jsonschema_specifications-2025.4.1-py3-none-any.whl.metadata (2.9 kB)
-Collecting referencing>=0.28.4 (from jsonschema>=3.0->altair>=4.2.0->gradio==3.35.2->llava==1.0.0)
-  Downloading referencing-0.36.2-py3-none-any.whl.metadata (2.8 kB)
-Collecting rpds-py>=0.7.1 (from jsonschema>=3.0->altair>=4.2.0->gradio==3.35.2->llava==1.0.0)
-  Downloading rpds_py-0.25.1-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (4.1 kB)
-INFO: pip is looking at multiple versions of markdown-it-py[linkify] to determine which version is compatible with other requirements. This could take a while.
-Collecting linkify-it-py<3,>=1 (from markdown-it-py[linkify]>=2.0.0->gradio==3.35.2->llava==1.0.0)
-  Downloading linkify_it_py-2.0.3-py3-none-any.whl.metadata (8.5 kB)
-Collecting uc-micro-py (from linkify-it-py<3,>=1->markdown-it-py[linkify]>=2.0.0->gradio==3.35.2->llava==1.0.0)
-  Downloading uc_micro_py-1.0.3-py3-none-any.whl.metadata (2.0 kB)
-Collecting sympy>=1.13.3 (from torch->llava==1.0.0)
-  Downloading sympy-1.14.0-py3-none-any.whl.metadata (12 kB)
-Collecting networkx (from torch->llava==1.0.0)
-  Downloading networkx-3.4.2-py3-none-any.whl.metadata (6.3 kB)
-Collecting nvidia-cuda-nvrtc-cu12==12.6.77 (from torch->llava==1.0.0)
-  Downloading nvidia_cuda_nvrtc_cu12-12.6.77-py3-none-manylinux2014_x86_64.whl.metadata (1.5 kB)
-Collecting nvidia-cuda-runtime-cu12==12.6.77 (from torch->llava==1.0.0)
-  Downloading nvidia_cuda_runtime_cu12-12.6.77-py3-none-manylinux2014_x86_64.manylinux_2_17_x86_64.whl.metadata (1.5 kB)
-Collecting nvidia-cuda-cupti-cu12==12.6.80 (from torch->llava==1.0.0)
-  Downloading nvidia_cuda_cupti_cu12-12.6.80-py3-none-manylinux2014_x86_64.manylinux_2_17_x86_64.whl.metadata (1.6 kB)
-Collecting nvidia-cudnn-cu12==9.5.1.17 (from torch->llava==1.0.0)
-  Downloading nvidia_cudnn_cu12-9.5.1.17-py3-none-manylinux_2_28_x86_64.whl.metadata (1.6 kB)
-Collecting nvidia-cublas-cu12==12.6.4.1 (from torch->llava==1.0.0)
-  Downloading nvidia_cublas_cu12-12.6.4.1-py3-none-manylinux2014_x86_64.manylinux_2_17_x86_64.whl.metadata (1.5 kB)
-Collecting nvidia-cufft-cu12==11.3.0.4 (from torch->llava==1.0.0)
-  Downloading nvidia_cufft_cu12-11.3.0.4-py3-none-manylinux2014_x86_64.manylinux_2_17_x86_64.whl.metadata (1.5 kB)
-Collecting nvidia-curand-cu12==10.3.7.77 (from torch->llava==1.0.0)
-  Downloading nvidia_curand_cu12-10.3.7.77-py3-none-manylinux2014_x86_64.manylinux_2_17_x86_64.whl.metadata (1.5 kB)
-Collecting nvidia-cusolver-cu12==11.7.1.2 (from torch->llava==1.0.0)
-  Downloading nvidia_cusolver_cu12-11.7.1.2-py3-none-manylinux2014_x86_64.manylinux_2_17_x86_64.whl.metadata (1.6 kB)
-Collecting nvidia-cusparse-cu12==12.5.4.2 (from torch->llava==1.0.0)
-  Downloading nvidia_cusparse_cu12-12.5.4.2-py3-none-manylinux2014_x86_64.manylinux_2_17_x86_64.whl.metadata (1.6 kB)
-Collecting nvidia-cusparselt-cu12==0.6.3 (from torch->llava==1.0.0)
-  Downloading nvidia_cusparselt_cu12-0.6.3-py3-none-manylinux2014_x86_64.whl.metadata (6.8 kB)
-Collecting nvidia-nccl-cu12==2.26.2 (from torch->llava==1.0.0)
-  Downloading nvidia_nccl_cu12-2.26.2-py3-none-manylinux2014_x86_64.manylinux_2_17_x86_64.whl.metadata (2.0 kB)
-Collecting nvidia-nvtx-cu12==12.6.77 (from torch->llava==1.0.0)
-  Downloading nvidia_nvtx_cu12-12.6.77-py3-none-manylinux2014_x86_64.manylinux_2_17_x86_64.whl.metadata (1.6 kB)
-Collecting nvidia-nvjitlink-cu12==12.6.85 (from torch->llava==1.0.0)
-  Downloading nvidia_nvjitlink_cu12-12.6.85-py3-none-manylinux2010_x86_64.manylinux_2_12_x86_64.whl.metadata (1.5 kB)
-Collecting nvidia-cufile-cu12==1.11.1.6 (from torch->llava==1.0.0)
-  Downloading nvidia_cufile_cu12-1.11.1.6-py3-none-manylinux2014_x86_64.manylinux_2_17_x86_64.whl.metadata (1.5 kB)
-Collecting triton==3.3.1 (from torch->llava==1.0.0)
-  Downloading triton-3.3.1-cp310-cp310-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl.metadata (1.5 kB)
-Requirement already satisfied: setuptools>=40.8.0 in /opt/conda/envs/llava/lib/python3.10/site-packages (from triton==3.3.1->torch->llava==1.0.0) (80.9.0)
-Collecting mpmath<1.4,>=1.1.0 (from sympy>=1.13.3->torch->llava==1.0.0)
-  Downloading mpmath-1.3.0-py3-none-any.whl.metadata (8.6 kB)
-Collecting click>=7.0 (from uvicorn->llava==1.0.0)
-  Downloading click-8.2.1-py3-none-any.whl.metadata (2.5 kB)
-Collecting aiohappyeyeballs>=2.5.0 (from aiohttp->gradio==3.35.2->llava==1.0.0)
-  Downloading aiohappyeyeballs-2.6.1-py3-none-any.whl.metadata (5.9 kB)
-Collecting aiosignal>=1.1.2 (from aiohttp->gradio==3.35.2->llava==1.0.0)
-  Downloading aiosignal-1.3.2-py2.py3-none-any.whl.metadata (3.8 kB)
-Collecting async-timeout<6.0,>=4.0 (from aiohttp->gradio==3.35.2->llava==1.0.0)
-  Downloading async_timeout-5.0.1-py3-none-any.whl.metadata (5.1 kB)
-Collecting frozenlist>=1.1.1 (from aiohttp->gradio==3.35.2->llava==1.0.0)
-  Downloading frozenlist-1.7.0-cp310-cp310-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (18 kB)
-Collecting multidict<7.0,>=4.5 (from aiohttp->gradio==3.35.2->llava==1.0.0)
-  Downloading multidict-6.4.4-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (5.3 kB)
-Collecting propcache>=0.2.0 (from aiohttp->gradio==3.35.2->llava==1.0.0)
-  Downloading propcache-0.3.2-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (12 kB)
-Collecting yarl<2.0,>=1.17.0 (from aiohttp->gradio==3.35.2->llava==1.0.0)
-  Downloading yarl-1.20.1-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (73 kB)
-Collecting pyarrow>=15.0.0 (from datasets->llava==1.0.0)
-  Downloading pyarrow-20.0.0-cp310-cp310-manylinux_2_28_x86_64.whl.metadata (3.3 kB)
-Collecting dill<0.3.9,>=0.3.0 (from datasets->llava==1.0.0)
-  Downloading dill-0.3.8-py3-none-any.whl.metadata (10 kB)
-Collecting xxhash (from datasets->llava==1.0.0)
-  Downloading xxhash-3.5.0-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (12 kB)
-Collecting multiprocess<0.70.17 (from datasets->llava==1.0.0)
-  Downloading multiprocess-0.70.16-py310-none-any.whl.metadata (7.2 kB)
-Collecting fsspec>=2023.5.0 (from huggingface-hub->accelerate==0.26.0->llava==1.0.0)
-  Downloading fsspec-2025.3.0-py3-none-any.whl.metadata (11 kB)
-Collecting charset_normalizer<4,>=2 (from requests->llava==1.0.0)
-  Downloading charset_normalizer-3.4.2-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (35 kB)
-Collecting urllib3<3,>=1.21.1 (from requests->llava==1.0.0)
-  Downloading urllib3-2.4.0-py3-none-any.whl.metadata (6.5 kB)
-Collecting starlette<0.47.0,>=0.40.0 (from fastapi->llava==1.0.0)
-  Downloading starlette-0.46.2-py3-none-any.whl.metadata (6.2 kB)
-Collecting wavedrom (from markdown2[all]->llava==1.0.0)
-  Downloading wavedrom-2.0.3.post3.tar.gz (137 kB)
-  Preparing metadata (setup.py): started
-  Preparing metadata (setup.py): finished with status 'done'
-Collecting latex2mathml (from markdown2[all]->llava==1.0.0)
-  Downloading latex2mathml-3.78.0-py3-none-any.whl.metadata (14 kB)
-Collecting contourpy>=1.0.1 (from matplotlib->gradio==3.35.2->llava==1.0.0)
-  Downloading contourpy-1.3.2-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (5.5 kB)
-Collecting cycler>=0.10 (from matplotlib->gradio==3.35.2->llava==1.0.0)
-  Downloading cycler-0.12.1-py3-none-any.whl.metadata (3.8 kB)
-Collecting fonttools>=4.22.0 (from matplotlib->gradio==3.35.2->llava==1.0.0)
-  Downloading fonttools-4.58.2-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (106 kB)
-Collecting kiwisolver>=1.3.1 (from matplotlib->gradio==3.35.2->llava==1.0.0)
-  Downloading kiwisolver-1.4.8-cp310-cp310-manylinux_2_12_x86_64.manylinux2010_x86_64.whl.metadata (6.2 kB)
-Collecting pyparsing>=2.3.1 (from matplotlib->gradio==3.35.2->llava==1.0.0)
-  Downloading pyparsing-3.2.3-py3-none-any.whl.metadata (5.0 kB)
-Collecting python-dateutil>=2.7 (from matplotlib->gradio==3.35.2->llava==1.0.0)
-  Downloading python_dateutil-2.9.0.post0-py2.py3-none-any.whl.metadata (8.4 kB)
-Collecting six>=1.5 (from python-dateutil>=2.7->matplotlib->gradio==3.35.2->llava==1.0.0)
-  Downloading six-1.17.0-py2.py3-none-any.whl.metadata (1.7 kB)
-Collecting pytz>=2020.1 (from pandas->gradio==3.35.2->llava==1.0.0)
-  Downloading pytz-2025.2-py2.py3-none-any.whl.metadata (22 kB)
-Collecting tzdata>=2022.7 (from pandas->gradio==3.35.2->llava==1.0.0)
-  Downloading tzdata-2025.2-py2.py3-none-any.whl.metadata (1.4 kB)
-Collecting gitpython!=3.1.29,>=1.0.0 (from wandb->llava==1.0.0)
-  Downloading GitPython-3.1.44-py3-none-any.whl.metadata (13 kB)
-Collecting platformdirs (from wandb->llava==1.0.0)
-  Downloading platformdirs-4.3.8-py3-none-any.whl.metadata (12 kB)
-Collecting protobuf!=4.21.0,!=5.28.0,<7,>=3.19.0 (from wandb->llava==1.0.0)
-  Downloading protobuf-6.31.1-cp39-abi3-manylinux2014_x86_64.whl.metadata (593 bytes)
-Collecting sentry-sdk>=2.0.0 (from wandb->llava==1.0.0)
-  Downloading sentry_sdk-2.29.1-py2.py3-none-any.whl.metadata (10 kB)
-Collecting setproctitle (from wandb->llava==1.0.0)
-  Downloading setproctitle-1.3.6-cp310-cp310-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (10 kB)
-Collecting gitdb<5,>=4.0.1 (from gitpython!=3.1.29,>=1.0.0->wandb->llava==1.0.0)
-  Downloading gitdb-4.0.12-py3-none-any.whl.metadata (1.2 kB)
-Collecting smmap<6,>=3.0.1 (from gitdb<5,>=4.0.1->gitpython!=3.1.29,>=1.0.0->wandb->llava==1.0.0)
-  Downloading smmap-5.0.2-py3-none-any.whl.metadata (4.3 kB)
-Collecting svgwrite (from wavedrom->markdown2[all]->llava==1.0.0)
-  Downloading svgwrite-1.4.3-py3-none-any.whl.metadata (8.8 kB)
-Downloading accelerate-0.26.0-py3-none-any.whl (270 kB)
-Downloading bitsandbytes-0.41.0-py3-none-any.whl (92.6 MB)
-   ━━━━━━━━━━━━                             28.0/92.6 MB 46.3 kB/s eta 0:23:15
-WARNING: Connection timed out while downloading.
-error: incomplete-download
-
-× Download failed because not enough bytes were received (28.0 MB/92.6 MB)
-╰─> URL: https://files.pythonhosted.org/packages/b9/33/1cea2d1c909dd3e2b595f7b73c4417f3786c385a4b269a5c40c7699bb14b/bitsandbytes-0.41.0-py3-none-any.whl
-
-note: This is an issue with network connectivity, not pip.
-hint: Consider using --resume-retries to enable download resumption.
-Looking in indexes: https://pypi.org/simple, https://pypi.ngc.nvidia.com, https://download.pytorch.org/whl/cu118
-Collecting torch==2.0.1+cu118
-  Downloading https://download.pytorch.org/whl/cu118/torch-2.0.1%2Bcu118-cp310-cp310-linux_x86_64.whl (2267.3 MB)
-     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 2.3/2.3 GB 3.3 MB/s eta 0:00:00
-Collecting torchvision==0.15.2+cu118
-  Downloading https://download.pytorch.org/whl/cu118/torchvision-0.15.2%2Bcu118-cp310-cp310-linux_x86_64.whl (6.1 MB)
-     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 6.1/6.1 MB 5.1 MB/s eta 0:00:00
-Collecting filelock (from torch==2.0.1+cu118)
-  Downloading filelock-3.18.0-py3-none-any.whl.metadata (2.9 kB)
-Collecting typing-extensions (from torch==2.0.1+cu118)
-  Downloading typing_extensions-4.14.0-py3-none-any.whl.metadata (3.0 kB)
-Collecting sympy (from torch==2.0.1+cu118)
-  Downloading sympy-1.14.0-py3-none-any.whl.metadata (12 kB)
-Collecting networkx (from torch==2.0.1+cu118)
-  Downloading networkx-3.4.2-py3-none-any.whl.metadata (6.3 kB)
-Collecting jinja2 (from torch==2.0.1+cu118)
-  Downloading jinja2-3.1.6-py3-none-any.whl.metadata (2.9 kB)
-Collecting triton==2.0.0 (from torch==2.0.1+cu118)
-  Downloading https://download.pytorch.org/whl/triton-2.0.0-1-cp310-cp310-manylinux2014_x86_64.manylinux_2_17_x86_64.whl (63.3 MB)
-     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 63.3/63.3 MB 3.5 MB/s eta 0:00:00
-Collecting numpy (from torchvision==0.15.2+cu118)
-  Downloading numpy-2.2.6-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (62 kB)
-Collecting requests (from torchvision==0.15.2+cu118)
-  Downloading requests-2.32.4-py3-none-any.whl.metadata (4.9 kB)
-Collecting pillow!=8.3.*,>=5.3.0 (from torchvision==0.15.2+cu118)
-  Downloading pillow-11.2.1-cp310-cp310-manylinux_2_28_x86_64.whl.metadata (8.9 kB)
-Collecting cmake (from triton==2.0.0->torch==2.0.1+cu118)
-  Downloading cmake-4.0.2-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (6.3 kB)
-Collecting lit (from triton==2.0.0->torch==2.0.1+cu118)
-  Downloading lit-18.1.8-py3-none-any.whl.metadata (2.5 kB)
-Collecting MarkupSafe>=2.0 (from jinja2->torch==2.0.1+cu118)
-  Downloading MarkupSafe-3.0.2-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (4.0 kB)
-Collecting charset_normalizer<4,>=2 (from requests->torchvision==0.15.2+cu118)
-  Downloading charset_normalizer-3.4.2-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (35 kB)
-Collecting idna<4,>=2.5 (from requests->torchvision==0.15.2+cu118)
-  Downloading idna-3.10-py3-none-any.whl.metadata (10 kB)
-Collecting urllib3<3,>=1.21.1 (from requests->torchvision==0.15.2+cu118)
-  Downloading urllib3-2.4.0-py3-none-any.whl.metadata (6.5 kB)
-Collecting certifi>=2017.4.17 (from requests->torchvision==0.15.2+cu118)
-  Downloading certifi-2025.4.26-py3-none-any.whl.metadata (2.5 kB)
-Collecting mpmath<1.4,>=1.1.0 (from sympy->torch==2.0.1+cu118)
-  Downloading https://download.pytorch.org/whl/mpmath-1.3.0-py3-none-any.whl (536 kB)
-     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 536.2/536.2 kB 647.7 kB/s eta 0:00:00
-Downloading pillow-11.2.1-cp310-cp310-manylinux_2_28_x86_64.whl (4.6 MB)
-   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 4.6/4.6 MB 169.2 kB/s eta 0:00:00
-Downloading cmake-4.0.2-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (27.9 MB)
-   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 27.9/27.9 MB 200.7 kB/s eta 0:00:00
-Downloading filelock-3.18.0-py3-none-any.whl (16 kB)
-Downloading jinja2-3.1.6-py3-none-any.whl (134 kB)
-Downloading MarkupSafe-3.0.2-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (20 kB)
-Downloading lit-18.1.8-py3-none-any.whl (96 kB)
-Downloading networkx-3.4.2-py3-none-any.whl (1.7 MB)
-   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.7/1.7 MB 168.6 kB/s eta 0:00:00
-Downloading numpy-2.2.6-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (16.8 MB)
-   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 16.8/16.8 MB 158.8 kB/s eta 0:00:00
-Downloading requests-2.32.4-py3-none-any.whl (64 kB)
-Downloading charset_normalizer-3.4.2-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (149 kB)
-Downloading idna-3.10-py3-none-any.whl (70 kB)
-Downloading urllib3-2.4.0-py3-none-any.whl (128 kB)
-Downloading certifi-2025.4.26-py3-none-any.whl (159 kB)
-Downloading sympy-1.14.0-py3-none-any.whl (6.3 MB)
-   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 6.3/6.3 MB 352.6 kB/s eta 0:00:00
-Downloading typing_extensions-4.14.0-py3-none-any.whl (43 kB)
-Installing collected packages: mpmath, lit, urllib3, typing-extensions, sympy, pillow, numpy, networkx, MarkupSafe, idna, filelock, cmake, charset_normalizer, certifi, requests, jinja2, triton, torch, torchvision
-
-Successfully installed MarkupSafe-3.0.2 certifi-2025.4.26 charset_normalizer-3.4.2 cmake-4.0.2 filelock-3.18.0 idna-3.10 jinja2-3.1.6 lit-18.1.8 mpmath-1.3.0 networkx-3.4.2 numpy-2.2.6 pillow-11.2.1 requests-2.32.4 sympy-1.14.0 torch-2.0.1+cu118 torchvision-0.15.2+cu118 triton-2.0.0 typing-extensions-4.14.0 urllib3-2.4.0
-Looking in indexes: https://pypi.org/simple, https://pypi.ngc.nvidia.com
-Collecting flash-attn==1.0.4
-  Downloading flash_attn-1.0.4.tar.gz (2.0 MB)
-     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 2.0/2.0 MB 212.7 kB/s eta 0:00:00
-  Preparing metadata (setup.py): started
-  Preparing metadata (setup.py): finished with status 'done'
-Requirement already satisfied: torch in /opt/conda/envs/llava/lib/python3.10/site-packages (from flash-attn==1.0.4) (2.0.1+cu118)
-Collecting einops (from flash-attn==1.0.4)
-  Downloading einops-0.8.1-py3-none-any.whl.metadata (13 kB)
-Collecting packaging (from flash-attn==1.0.4)
-  Downloading packaging-25.0-py3-none-any.whl.metadata (3.3 kB)
-Requirement already satisfied: filelock in /opt/conda/envs/llava/lib/python3.10/site-packages (from torch->flash-attn==1.0.4) (3.18.0)
-Requirement already satisfied: typing-extensions in /opt/conda/envs/llava/lib/python3.10/site-packages (from torch->flash-attn==1.0.4) (4.14.0)
-Requirement already satisfied: sympy in /opt/conda/envs/llava/lib/python3.10/site-packages (from torch->flash-attn==1.0.4) (1.14.0)
-Requirement already satisfied: networkx in /opt/conda/envs/llava/lib/python3.10/site-packages (from torch->flash-attn==1.0.4) (3.4.2)
-Requirement already satisfied: jinja2 in /opt/conda/envs/llava/lib/python3.10/site-packages (from torch->flash-attn==1.0.4) (3.1.6)
-Requirement already satisfied: triton==2.0.0 in /opt/conda/envs/llava/lib/python3.10/site-packages (from torch->flash-attn==1.0.4) (2.0.0)
-Requirement already satisfied: cmake in /opt/conda/envs/llava/lib/python3.10/site-packages (from triton==2.0.0->torch->flash-attn==1.0.4) (4.0.2)
-Requirement already satisfied: lit in /opt/conda/envs/llava/lib/python3.10/site-packages (from triton==2.0.0->torch->flash-attn==1.0.4) (18.1.8)
-Requirement already satisfied: MarkupSafe>=2.0 in /opt/conda/envs/llava/lib/python3.10/site-packages (from jinja2->torch->flash-attn==1.0.4) (3.0.2)
-Requirement already satisfied: mpmath<1.4,>=1.1.0 in /opt/conda/envs/llava/lib/python3.10/site-packages (from sympy->torch->flash-attn==1.0.4) (1.3.0)
-Downloading einops-0.8.1-py3-none-any.whl (64 kB)
-Downloading packaging-25.0-py3-none-any.whl (66 kB)
-Building wheels for collected packages: flash-attn
-  DEPRECATION: Building 'flash-attn' using the legacy setup.py bdist_wheel mechanism, which will be removed in a future version. pip 25.3 will enforce this behaviour change. A possible replacement is to use the standardized build interface by setting the `--use-pep517` option, (possibly combined with `--no-build-isolation`), or adding a `pyproject.toml` file to the source tree of 'flash-attn'. Discussion can be found at https://github.com/pypa/pip/issues/6334
-  Building wheel for flash-attn (setup.py): started
-  Building wheel for flash-attn (setup.py): still running...
-  Building wheel for flash-attn (setup.py): still running...
-  Building wheel for flash-attn (setup.py): finished with status 'done'
-  Created wheel for flash-attn: filename=flash_attn-1.0.4-cp310-cp310-linux_x86_64.whl size=46072046 sha256=332c37c1c549394e6d92ac9d60a946247f04531a161d025c4b5e25559703a1bf
-  Stored in directory: /tmp/pip-ephem-wheel-cache-bt_47o7g/wheels/4e/50/c1/e08a34b54b55043120df0c20a690f0f75a36e013349399acc1
-Successfully built flash-attn
-Installing collected packages: packaging, einops, flash-attn
-
-Successfully installed einops-0.8.1 flash-attn-1.0.4 packaging-25.0
-Traceback (most recent call last):
-  File "/home/c01yiqu/CISPA-projects/safe_bench-2023/SaferVLM/eval_rlhf.py", line 4, in <module>
-    from llava.constants import (
-  File "/home/c01yiqu/CISPA-projects/safe_bench-2023/SaferVLM/llava/__init__.py", line 1, in <module>
-    from .model import LlavaLlamaForCausalLM
-  File "/home/c01yiqu/CISPA-projects/safe_bench-2023/SaferVLM/llava/model/__init__.py", line 1, in <module>
-    from .language_model.llava_llama import LlavaLlamaForCausalLM, LlavaConfig
-  File "/home/c01yiqu/CISPA-projects/safe_bench-2023/SaferVLM/llava/model/language_model/llava_llama.py", line 21, in <module>
-    from transformers import AutoConfig, AutoModelForCausalLM, \
-ModuleNotFoundError: No module named 'transformers'
-Traceback (most recent call last):
-  File "/home/c01yiqu/CISPA-projects/safe_bench-2023/SaferVLM/eval_rlhf.py", line 4, in <module>
-    from llava.constants import (
-  File "/home/c01yiqu/CISPA-projects/safe_bench-2023/SaferVLM/llava/__init__.py", line 1, in <module>
-    from .model import LlavaLlamaForCausalLM
-  File "/home/c01yiqu/CISPA-projects/safe_bench-2023/SaferVLM/llava/model/__init__.py", line 1, in <module>
-    from .language_model.llava_llama import LlavaLlamaForCausalLM, LlavaConfig
-  File "/home/c01yiqu/CISPA-projects/safe_bench-2023/SaferVLM/llava/model/language_model/llava_llama.py", line 21, in <module>
-    from transformers import AutoConfig, AutoModelForCausalLM, \
-ModuleNotFoundError: No module named 'transformers'
-Traceback (most recent call last):
-  File "/home/c01yiqu/CISPA-projects/safe_bench-2023/SaferVLM/eval_rlhf.py", line 4, in <module>
-    from llava.constants import (
-  File "/home/c01yiqu/CISPA-projects/safe_bench-2023/SaferVLM/llava/__init__.py", line 1, in <module>
-    from .model import LlavaLlamaForCausalLM
-  File "/home/c01yiqu/CISPA-projects/safe_bench-2023/SaferVLM/llava/model/__init__.py", line 1, in <module>
-    from .language_model.llava_llama import LlavaLlamaForCausalLM, LlavaConfig
-  File "/home/c01yiqu/CISPA-projects/safe_bench-2023/SaferVLM/llava/model/language_model/llava_llama.py", line 21, in <module>
-    from transformers import AutoConfig, AutoModelForCausalLM, \
-ModuleNotFoundError: No module named 'transformers'
-Traceback (most recent call last):
-  File "/home/c01yiqu/CISPA-projects/safe_bench-2023/SaferVLM/eval_rlhf.py", line 4, in <module>
-    from llava.constants import (
-  File "/home/c01yiqu/CISPA-projects/safe_bench-2023/SaferVLM/llava/__init__.py", line 1, in <module>
-    from .model import LlavaLlamaForCausalLM
-  File "/home/c01yiqu/CISPA-projects/safe_bench-2023/SaferVLM/llava/model/__init__.py", line 1, in <module>
-    from .language_model.llava_llama import LlavaLlamaForCausalLM, LlavaConfig
-  File "/home/c01yiqu/CISPA-projects/safe_bench-2023/SaferVLM/llava/model/language_model/llava_llama.py", line 21, in <module>
-    from transformers import AutoConfig, AutoModelForCausalLM, \
-ModuleNotFoundError: No module named 'transformers'
-Traceback (most recent call last):
-  File "/home/c01yiqu/CISPA-projects/safe_bench-2023/SaferVLM/eval_rlhf.py", line 4, in <module>
-    from llava.constants import (
-  File "/home/c01yiqu/CISPA-projects/safe_bench-2023/SaferVLM/llava/__init__.py", line 1, in <module>
-    from .model import LlavaLlamaForCausalLM
-  File "/home/c01yiqu/CISPA-projects/safe_bench-2023/SaferVLM/llava/model/__init__.py", line 1, in <module>
-    from .language_model.llava_llama import LlavaLlamaForCausalLM, LlavaConfig
-  File "/home/c01yiqu/CISPA-projects/safe_bench-2023/SaferVLM/llava/model/language_model/llava_llama.py", line 21, in <module>
-    from transformers import AutoConfig, AutoModelForCausalLM, \
-ModuleNotFoundError: No module named 'transformers'

@@ -1,6 +1,6 @@
-logs
-outputs
-results
+/logs
+/outputs
+/results
 *.pyc
 __pycache__
 *.pyo
