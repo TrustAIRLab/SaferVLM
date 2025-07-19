@@ -1,0 +1,5 @@
+"split","Relative Score (main)","VLM Score","GPT4 Score"
+"overall","55.6","47.3","85.2"
+"complex","66.4","53.6","80.7"
+"detail","42.7","37.3","87.3"
+"conv","50.6","45.9","90.6"
