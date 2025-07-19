@@ -1,8 +1,12 @@
 # SaferVLM
 
+[![USENIX](https://img.shields.io/badge/USENIX-2025-red)](https://www.usenix.org/)
+[![arXiv](https://img.shields.io/badge/arXiv-preprint-brown)](http://arxiv.org/abs/2507.11155)
+[![Dataset](https://img.shields.io/badge/dataset-huggingface-yellow)](https://huggingface.co/datasets/yiting/UnsafeConcepts)
+
 This is the official repository of the USENIX 2025 paper [Bridging the Gap in Vision Language Models in Identifying Unsafe Concepts Across Modalities](https://arxiv.org/abs/2507.11155).
 
-**Disclaimer:** This repo contains examples of hateful and abusive language. Reader discretion is recommended. This repo is intended for research purposes only. Any misuse is strictly prohibited.
+**Disclaimer: This repo contains examples of hateful and abusive language. Reader discretion is recommended. This repo is intended for research purposes only. Any misuse is strictly prohibited.**
 
 ## Setup Environment
 
@@ -21,7 +25,7 @@ export HF_TOKEN=hf_xxx
 ## UnsafeConcepts Dataset
 
 > ⚠️ **Attention:** This dataset contains unsafe content, so it requires access on Hugging Face.
-> To use this dataset, first apply for access [here](https://huggingface.co/datasets/yiting/UnsafeConcepts) and fill in your name, affiliation, and ensure that you will only use it for research or education.
+> To use this [dataset](https://huggingface.co/datasets/yiting/UnsafeConcepts), first apply for access, then fill in your name, affiliation, and ensure that you will only use it for research or education.
 
 After we grant the access, you can use it as follows.
 ```
@@ -35,9 +39,9 @@ dataset = load_dataset("yiting/UnsafeConcepts", split="train")
 Take llava-v1.5-7b as an exmaple:
 
 ```bash
-python measure.py --model_name llava-v1.5-7b --capability perception --response_dir output_test
-python measure.py --model_name llava-v1.5-7b --capability alignment --response_dir output_test
-python measure.py --model_name llava-v1.5-7b --capability alignment_text_only --response_dir output_test
+python measure.py --model_name llava-v1.5-7b --capability perception --response_dir outputs
+python measure.py --model_name llava-v1.5-7b --capability alignment --response_dir outputs
+python measure.py --model_name llava-v1.5-7b --capability alignment_text_only --response_dir outputs
 ```
 
 To query all VLMs:
@@ -95,7 +99,22 @@ bash scripts/eval.sh
 
 ## Citation
 If you find this useful in your research, please consider citing:
-
-
+```
+@inproceedings{QBZ25,
+  author = {Yiting Qu and Michael Backes and Yang Zhang},
+  title = {{Bridging the Gap in Vision Language Models in Identifying Unsafe Concepts Across Modalities}},
+  booktitle = {{USENIX Security Symposium (USENIX Security)}},
+  publisher = {USENIX},
+  year = {2025}
+}
+```
 
 ## Acknowledgements
+
+The RLHF training scripts are largely inspired from [LLaVA-RLHF](https://github.com/llava-rlhf/LLaVA-RLHF).
+
+## License
+This project is licensed under the MIT License.
+
+
+
