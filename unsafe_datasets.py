@@ -91,12 +91,12 @@ class UnsafeConcepts(Dataset):
         import tqdm
         
         dataset = load_dataset("yiting/UnsafeConcepts", split="train")
-
+        raw_dataset = dataset.cast_column("image", HFImage(decode=False))
+        os.makedirs(save_path, exist_ok=True)
+    
         for idx, item in enumerate(tqdm.tqdm(dataset)):
-            image = item["image"]
-            image_id = item.get("id", str(idx))
-            image_filename = f"{image_id}.png"
-            image.save(os.path.join(save_path, image_filename))
+            image_filename = os.path.basename(raw_dataset[idx]["image"]["path"])
+            item["image"].save(os.path.join(save_path, image_filename))
 
 class UnsafeConceptBlankImage(Dataset):
     
@@ -165,12 +165,12 @@ class PerceptionDataset():
         import tqdm
         
         dataset = load_dataset("yiting/UnsafeConcepts", split="train")
-        
+        raw_dataset = dataset.cast_column("image", HFImage(decode=False))
+        os.makedirs(save_path, exist_ok=True)
+    
         for idx, item in enumerate(tqdm.tqdm(dataset)):
-            image = item["image"]
-            image_id = item.get("id", str(idx))
-            image_filename = f"{image_id}.png"
-            image.save(os.path.join(save_path, image_filename))
+            image_filename = os.path.basename(raw_dataset[idx]["image"]["path"])
+            item["image"].save(os.path.join(save_path, image_filename))
 
 
 def UnsafeConcept_train_test_split(split_ratio=0.8, image_root="data/UnsafeConcepts"):
